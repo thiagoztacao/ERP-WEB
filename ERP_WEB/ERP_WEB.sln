@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ERP_WEB", "ERP_WEB.pyproj", "{C3DE7BF4-9732-4A1E-81C1-67F188E916D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3DE7BF4-9732-4A1E-81C1-67F188E916D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DE7BF4-9732-4A1E-81C1-67F188E916D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DE7BF4-9732-4A1E-81C1-67F188E916D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DE7BF4-9732-4A1E-81C1-67F188E916D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52218DD8-0907-4A8D-9535-30C7C54E2698}
+	EndGlobalSection
+EndGlobal

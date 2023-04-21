@@ -1,0 +1,14 @@
+﻿{% extends "app/layout.html" %}
+
+{% block title %}Lista de Clientes{% endblock %}
+
+{% block content %}
+<h1>Lista de Clientes</h1>
+<ul>
+    {% for cliente in clientes %}
+    <li>{{ cliente.nome }} - {{ cliente.telefone }} - {{ cliente.endereco }}</li>
+    {% empty %}
+    <li>Nenhum cliente cadastrado</li>
+    {% endfor %}
+</ul>
+{% endblock %}

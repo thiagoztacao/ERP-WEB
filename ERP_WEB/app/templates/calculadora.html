@@ -1,0 +1,17 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}upload</h2>
+<h3>{{ message }}</h3>
+
+<h1>Upload de arquivos XML</h1>
+{% if success %}
+<p class="text-success">Arquivo XML enviado com sucesso!</p>
+{% endif %}
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Enviar</button>
+</form>
+{% endblock %}
